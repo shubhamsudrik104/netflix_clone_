@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      function selectText() {
+        document.getElementById("myInput").select();
+      }
+
+      function select2Text() {
+        document.getElementById("myinput2").select();
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="bg">
+      <div class="navbar">
+        <img src="./img/imgi_2_Netflix_Logo_PMS (1).png" class="logo" />
+
+        <div class="right-section">
+          <select class="lang-select">
+            <option>English</option>
+            <option>हिंदी</option>
+            <option>marathi</option>
+          </select>
+
+          <button class="signin-btn">Sign In</button>
+        </div>
+      </div>
+
+      <div class="data">
+        <h1>Unlimited Movies,</h1>
+        <h1>shows and more</h1>
+        <h3>Starts at ₹149. Cancel at any time.</h3>
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <input
+          type="text"
+          placeholder=" Email address"
+          class="email"
+          id="myInput"
+        />
+        <button class="getstarted" onclick="selectText()">
+          Get Started <img src="./img/imgi_27_default.png" alt="" />
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="slider-box">
+        <h2>Trending Now</h2>
+
+        <div class="slider">
+          <div class="card">
+            <span class="num">1</span
+            ><img
+              src="./img/imgi_34_AAAABQFmi2qrQTOShMevIIgOcMdy2h-nqU5swZHnjzJZJbnfTO_oJnzTZp4B8KKOEPMq0DzI2z5-XE4bjchCAQYlPvWR1jBzggTo3sM (1).webp"
+            />
+          </div>
+          <div class="card">
+            <span class="num">2</span
+            ><img
+              src="./img/imgi_43_AAAABcN38g12dshrKyM6ch4aiC6-s19DXaxSBMXILAijCpRGjl1sd48TLUrYqqy_XRyY1ZHuSU0N7ltdBwZzcyAAe1GEOggzv7jgWENsI7K_Sz4-G59CRcmQ6X4bPnW9libJ1xos.webp"
+            />
+          </div>
+          <div class="card">
+            <span class="num">3</span
+            ><img
+              src="./img/imgi_35_AAAABTJf3e14TtZ2Z3216UaphDq5nf1SaFyC-0R59wDCSyGdNROqYPTHg8g8SU0kbcn61BMumEkghBN8r11S6_bhQvNJ4oQD4oECM-M.webp"
+            />
+          </div>
+          <div class="card">
+            <span class="num">4</span
+            ><img
+              src="./img/imgi_36_AAAABbK_3kEcG8KN172b4HBORTGJy8a30_VEMpEEDYw1ocyIdkQ0ffzjjXVIUTzOKg13lAocqWLapTFYVn0WEdfpI8kmgMIfKwyd3mEg5ug_mD2MmEBYRlIeBDpa1QR5uwFkK-E_.webp"
+            />
+          </div>
+          <div class="card">
+            <span class="num">5</span
+            ><img
+              src="./img/imgi_38_AAAABc2CT8a8QteV-FIoyJorf5IObO8cP5mW6__0zAMwuCEf7YOUWl0LUWBmpNz7mLx6HHDEOsxvtqC7P8sKxC6h9jLzwaaEHxrSrzY.webp"
+            />
+          </div>
+          <div class="card">
+            <span class="num">6</span
+            ><img
+              src="./img/imgi_37_AAAABXofeOBMXfake2UpvS5aFutul0vL1os5iYG20jqPr6_CIZz7qEqvCqNXmIU067p1VhsR0lI1FDQBpMdmsupJ_6BaGVGcv-8SnP9DEaXEY3Jp8rvUHARX3b1iQhLn3rpbw8W_.webp"
+            />
+          </div>
+          <div class="card">
+            <span class="num">7</span
+            ><img
+              src="./img/imgi_39_AAAABWJF3fOVc0WbJWEYriu_3uQ9lgkyfv0VrBguejqSrYC0b7AfDDsPJ0IFUMseCvvtqjbKvUegYyhw0rDMS_O44wupyfnLPemAXvHP8sBGapu-n4-8y-D6rdQclPui4gvqvwiE.webp"
+            />
+          </div>
+          <div class="card">
+            <span class="num">8</span
+            ><img
+              src="./img/imgi_40_AAAABXuxnTub5falOGY9MXXmFvUqTEHS-jYkcWNjQr7OAdPRQ7mtHheMBLi4uJi9rhLCLcsfHlrNXWRbuNGcCWRkJUoWlT92oqoEoWE.webp"
+            />
+          </div>
+          <div class="card">
+            <span class="num">9</span
+            ><img
+              src="./img/imgi_41_AAAABemK-aHwX63DztqbWwQ0xnYGvHYuoYkQ3l3ZIwftPjmuJxC461m-FOI7ZN_bzolsgGd_3_dbacKgr5mV292UjjEYJGCgIubIQOs.webp"
+            />
+          </div>
+          <div class="card">
+            <span class="num">10</span
+            ><img
+              src="./img/imgi_42_AAAABVCzd41nKAatdvwy0DT1M5D-xSzSdBdKklegmczhdyKYvEEwunaUUcE5xr7Zjkn9Ywhm3n-2g0wi5s1nB3J1bAhe8t3j0ENBjxw.webp"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="moreresons">
+        <h2>More reasons to join</h2>
+      </div>
+
+      <div class="boxes">
+        <div class="reasons">
+          <div class="reason-card">
+            <h2>Enjoy on your TV</h2>
+            <p class="paragrpah">
+              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              Blu-ray players and more.
+            </p>
+            <img src="./img/down-arrow_11704623.png" class="resonicon" />
+          </div>
+
+          <div class="reason-card">
+            <h2>Download shows</h2>
+            <p class="paragrpah">
+              Save your favourites easily and always have something to watch.
+              have a entertaiment.
+            </p>
+            <img src="./img/cybercrime_8230880 copy.png" class="resonicon" />
+          </div>
+
+          <div class="reason-card">
+            <h2>Watch everywhere</h2>
+            <p class="paragrpah">
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
+            </p>
+            <img src="./img/telescope_535305.png" class="resonicon" />
+          </div>
+
+          <div class="reason-card">
+            <h2>Create profiles for kids</h2>
+            <p class="paragrpah">
+              Send kids on adventures with their favourite characters in a space
+              made just for them — free with your membership.
+            </p>
+            <img src="./img/kids_16425047.png" class="resonicons" />
+          </div>
+        </div>
+      </div>
+
+      <div class="moreresons">
+        <h2>Frequently Asked Quesitons</h2>
+        <div>
+          <details>
+            <summary>What is Netflix?</summary>
+            <div class="answer">
+              Netflix is a streaming service that offers a wide variety of TV
+              shows, movies, anime, documentaries and more – on thousands of
+              devices.
+              <br /><br />
+              You can watch as much as you want, whenever you want, without a
+              single ad. New TV shows and movies are added every week!
+            </div>
+          </details>
+          <details>
+            <summary>How must does Netflix cost?</summary>
+            <div class="answer">
+              Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+              streaming device, all for one fixed monthly fee. Plans range from
+              ₹149 to ₹649/month
+              <br /><br />
+            </div>
+          </details>
+          <details>
+            <summary>Where i can watch it?</summary>
+            <div class="answer">
+              Watch anywhere, anytime. Sign in with your Netflix account to
+              watch instantly on the web at netflix.com from your personal
+              computer or on any internet-connected device that offers the
+              Netflix app, including smart TVs, smartphones, tablets, streaming
+              media players and game consoles. You can also download your
+              favourite shows with the iOS or Android app. Use downloads to
+              watch while you're on the go and without an internet connection.
+              Take Netflix with you anywhere.
+            </div>
+          </details>
+          <details>
+            <summary>How do I cancel ?</summary>
+            <div class="answer">
+              Netflix is flexible. You can easily cancel your account online in
+              two clicks. There are no cancellation fees – start or stop your
+              account anytime
+            </div>
+          </details>
+          <details>
+            <summary>What can i watch on Netflix?</summary>
+            <div class="answer">
+              Netflix has an extensive library of feature films, documentaries,
+              shows, anime, award-winning Netflix originals, and more. Watch as
+              much as you want, anytime you want.
+            </div>
+          </details>
+          <details>
+            <summary>Is Netflix good for kids ?</summary>
+            <div class="answer">
+              The Netflix Kids experience is included in your membership to give
+              parents control while kids enjoy family-friendly TV shows and
+              films in their own space. Kids profiles come with PIN-protected
+              parental controls that let you restrict the maturity rating of
+              content kids can watch and block specific titles you don’t want
+              kids to see
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <div class="emailverification">
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <input type="text" placeholder="Email Address" id="myinput2" />
+        <button onclick="select2Text()">
+          GetStarted <img src="./img/imgi_27_default.png" alt="" />
+        </button>
+      </div>
+      <div class="call">
+        <p>Questions? Call 000-800-919-1743</p>
+      </div>
+      <footer>
+        <div class="footer-panel">
+          <ul class="panel">
+            <a>FAQ</a>
+            <a>Investor Relations</a>
+            <a>Privacy</a>
+            <a>Speed text</a>
+          </ul>
+          <ul class="panel">
+            <a>FAQ</a>
+            <a>Investor Relations</a>
+            <a>Privacy</a>
+            <a>Speed text</a>
+          </ul>
+          <ul class="panel">
+            <a>FAQ</a>
+            <a>Investor Relations</a>
+            <a>Privacy</a>
+            <a>Speed text</a>
+          </ul>
+          <ul class="panel">
+            <a>FAQ</a>
+            <a>Investor Relations</a>
+            <a>Privacy</a>
+            <a>Speed text</a>
+          </ul>
+        </div>
+        <div class="last-section">
+          <select class="last-select">
+            <option>English</option>
+            <option>हिंदी</option>
+            <option>marathi</option>
+          </select>
+        </div>
+        <div class="last-part">
+          <h4>Netflix India</h4>
+          <p>
+            This page is protected by Google reCAPTCHA to ensure you're not a
+            bot. <a href="">Learn more</a>.
+          </p>
+        </div>
+      </footer>
+
+      <div class="develop">
+        <p>Developed By Shubham Sudrik</p>
+      </div>
+    </div>
+  </body>
+</html>
